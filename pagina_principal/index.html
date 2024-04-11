@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERONUBE</title>
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link href="pag_principal_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top" style="background-color: #1a61b4;">
+            <div>
+                <a class="navbar-brand" href="#" style="margin-left: 25%;"><img src="images_page/logo.png"
+                        alt="logo.png" width="140px"></a>
+            </div>
+            <div style="display: flex; flex-direction: row; align-items: center; padding: 15px;">
+                <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#" style="margin-right: 25px;">
+                    Inicio
+                </a>
+                <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#" style="margin-right: 25px;">
+                    Ver Paquetes de Viaje
+                </a>
+                <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#" style="margin-right: 25px;">
+                    Soporte al Cliente
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <img src="images_page/lugar2.png" alt="">
+
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>¡Viaja a Lima, Perú!</h1>
+                            <p>Conoce los lugares más famosos de Lima!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver paquetes</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <img src="images_page/lugar1.png" alt="">
+
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>¡Viaja a Rapa Nui, Chile!</h1>
+                            <p>Conoce todo lo que puedes hacer en Rapa Nui!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver paquetes</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <img src="images_page/lugar3.png" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>¡Viaja a Rio de Janeiro, Brasil!</h1>
+                            <p>Vive aventuras como nadie en Rio de Janeiro!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver paquetes</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="titulo_opiniones">
+            <h2>CONOCE LAS OPINIONES DE NUESTROS CLIENTES</h2>
+        </div>
+
+        <div class="container opiniones">
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <p>02 de Julio 2020</p>
+                    <h2 class="featurette-heading">Hermosa Luna de Miel en Rapa Nui!
+                    </h2>
+                    <p class="lead">Vine con mi esposo de luna de miel a Rapa Nui, compramos el paquete premium de 21
+                        días, la mejor estadía que hemos tenido
+                        y espero poder viajar prontamente con AeroNube de nuevo. Gracias por la bonita luna de miel!!
+                    </p>
+                    <p>Juanita Peréz.</p>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        src="images_page/opinion1.jpeg" alt="Descripción de la imagen">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        src="images_page/opinion2.jpg" alt="Descripción de la imagen">
+                </div>
+
+                <div class="col-md-7">
+                    <p>02 de Septiembre 2018</p>
+                    <h2 class="featurette-heading">Viaje de aniversario en Lima!
+                    </h2>
+                    <p class="lead">Mi hermosa esposa y yo decidimos regalarnos unas vacaciones inolvidables por nuestro
+                        aniversario de 30 años, sin duda AeroNube superó nuestras expectativas.
+                        Los mejores hoteles calidad/precio, el tour nos llevó por toda la ciudad y alrededores. Los
+                        mejores 15 días de vacaciones. Recomendado para todos!!
+                    </p>
+                    <p>Juan Torres.</p>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                </div>
+
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <p>05 de Enero 2023</p>
+                    <h2 class="featurette-heading">
+                        Viaje a Brasil libre de estrés!
+                    </h2>
+                    <p class="lead">
+                        Decidí escapar del estrés de la ciudad, gracias a AeroNube pude encontrar el viaje ideal para mi
+                        y a un precio increible.
+                        No solo recorrí los mejores lugares de la ciudad, también pude encontrarme a mi misma. Ya sé a
+                        donde ir cuando quiera escapar del trabajo!!
+                    </p>
+                    <p>Raquel Arias.</p>
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        src="images_page/opinion3.jpeg" alt="Descripción de la imagen">
+                </div>
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="btn_info">
+                <p><a class="btn btn-lg btn-primary" href="index.html" role="button">Conoce más opiniones!</a></p>
+            </div>
+            
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="titulo_sobre_nosotros">
+            <h2>CONOCE SOBRE NOSOTROS</h2>
+        </div>
+
+        <div class="container sobre_nosotros">
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        src="images_page/sobreNosotros1.jpg" alt="Descripción de la imagen">
+                </div>
+
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Un Equipo comprometido con encontrar las mejores opciones para ti!
+                    </h2>
+                    <p class="lead">En AeroNube nos caracterizamos por tener un equipo multidiciplinario y comprometido con encontrar las mejores opciones para que tu y tus acompañantes
+                        no tengan que preocuparse. Si compras paquetes de viajes con nosotros, te garantizamos una estadía cinco estrellas!
+                    </p>
+                </div>
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Cuando nos formamos
+                    </h2>
+                    <p class="lead">AeroNube nace el año 2015 como una idea entre dos amigos que hasta día de hoy trabajan en conjunto. Nuestros CEO trabajaron arduamente para encontrar y desarrollar herramientas que 
+                        encontraran los mejores vuelos, hoteles, tours, entre otros, en relación calidad/precio. Desde que comenzó esta empresa se ha tenido como misión dar las mejores vacaciones a nuestros clientes!!
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        src="images_page/sobreNosotros2.jpg" alt="Descripción de la imagen">
+                </div>
+
+            </div>
+
+            <hr class="featurette-divider">
+            
+            <div class="btn_info">
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Conoce más sobre nosotros!</a></p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer
+        style="background-color: #1a1e21; color: whitesmoke; text-align: center; margin: 0; padding-top: 15px; padding-bottom: 15px;">
+        <p> &copy; 2024 Copyright Aeronube | Nuestro Correo: <a
+                class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="#" style="margin-right: 25px;">
+                correocentrodeviajes@gmail.com
+            </a></p>
+    </footer>
+
+</body>
+
+</html>
+</body>
+
+</html>
