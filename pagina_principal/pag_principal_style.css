@@ -1,0 +1,33 @@
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.titulo_opiniones,
+.titulo_sobre_nosotros,
+.btn_info{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.titulo_opiniones,
+.titulo_sobre_nosotros{
+    padding-top: 20px;
+}
