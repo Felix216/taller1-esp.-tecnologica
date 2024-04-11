@@ -1,0 +1,33 @@
+.container-errors {
+    padding-top: 30px;
+}
+
+.container{
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 70%;
+    border-radius: 20px;
+}
+
+.titulo {
+    padding: 15px;
+    background-color: #1f91d1;
+    border-bottom-left-radius: 30px;
+}
+
+.contactenos {
+    padding: 15px;
+}
+
+.row{
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+body{
+    background-size: 100%;
+}
+.contenido{
+    padding-top: 85px;
+}
